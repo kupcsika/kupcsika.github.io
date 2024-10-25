@@ -6,7 +6,7 @@ I spend my free time with my family and astronomy, check out my [astrobin](https
 
 ## Publications
 
-For a full list check my [google scholar](https://scholar.google.com/citations?user=G0EQYYIAAAAJ&hl=en).
+For the full puclication list check my [google scholar](https://scholar.google.com/citations?user=G0EQYYIAAAAJ&hl=en) page.
 
 Some notable publications:
 
