@@ -1,8 +1,7 @@
 # Hi, I'm Andras Kupcsik
 ## About me
 
-I'm a lead research scientist at Bosch Corporate Research in the field of robot learning, which blends robotics and machine learning.
-My main research interest lies in robot skill learning for dexterous manipulation. On a broader spectrum I'm also interested in sequential decision making: reinforcement learning, imitation learning, optimal control; geometric learning and control using Riemannian manifolds and computer vision for object understanding.
+I am a Lead Research Scientist at Bosch Corporate Research, specializing in robot learning—the intersection of robotics and machine learning. My research focuses on robot skill learning for dexterous manipulation, with broader interests in sequential decision making (reinforcement learning, imitation learning, optimal control), geometric learning and control, and computer vision for object understanding.
 
 I spend my free time with my family and astronomy, check out my [astrobin](https://www.astrobin.com/users/kupcsika/) page.
 
@@ -19,7 +18,7 @@ Some notable publications:
 ## Previously
 
 - I'm with Bosch since 2018
-- In 2016 I joined Sylvan Calinon's lab at [Idiap research institute](https://www.idiap.ch/en) in Switzerland to work on the (DexRov)[https://www.dexrov.eu/] project
-- In 2014 I joined the lab of David Hsu (@NUS)[https://www.comp.nus.edu.sg/cs/people/dyhsu/] and worked on human-robot interaction
-- I did my PhD in robot skill learning at the National University of Singapore from 2010-2014. During my studies I spent 8 month as a PhD sabbatical at TU Darmstadt, with (Jan Peters' lab)[https://www.ias.informatik.tu-darmstadt.de/Team/JanPeters]
+- In 2016 I joined Sylvan Calinon's lab at [Idiap research institute](https://www.idiap.ch/en) in Switzerland to work on the [DexRov](https://www.dexrov.eu/) project
+- In 2014 I joined the lab of David Hsu [@NUS](https://www.comp.nus.edu.sg/cs/people/dyhsu/) and worked on human-robot interaction
+- I did my PhD in robot skill learning at the National University of Singapore from 2010-2014. During my studies I spent 8 month as a PhD sabbatical at TU Darmstadt, with [Jan Peters' lab](https://www.ias.informatik.tu-darmstadt.de/Team/JanPeters)
 
