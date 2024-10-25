@@ -18,5 +18,5 @@ Some notable publications:
 
 - I'm with Bosch since 2018
 - In 2016 I joined [Sylvan Calinon](https://calinon.ch/)'s lab at [Idiap research institute](https://www.idiap.ch/en/scientific-research/robot-learning-and-interaction/index_html) in Switzerland to work on the [DexRov](https://www.dexrov.eu/) project
-- In 2014 I joined the lab of David Hsu [@NUS](https://www.comp.nus.edu.sg/cs/people/dyhsu/) and worked on human-robot interaction
+- In 2014 I joined the lab of [David Hsu](https://www.comp.nus.edu.sg/cs/people/dyhsu/) at NUS and worked on human-robot interaction
 - I did my PhD in robot skill learning at the National University of Singapore from 2010-2014. During my studies I spent 8 month as a PhD sabbatical at TU Darmstadt, with [Jan Peters' lab](https://www.ias.informatik.tu-darmstadt.de/Team/JanPeters)
