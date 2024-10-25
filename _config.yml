@@ -4,3 +4,4 @@ plugins:
 title: Andras Kupcsik
 description: Research scientist in robotics and machine learning
 logo: assets/img/headshot.png.jpeg
+show_downloads: false
