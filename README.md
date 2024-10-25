@@ -22,3 +22,5 @@ Some notable publications:
 - In 2014 I joined the lab of David Hsu [@NUS](https://www.comp.nus.edu.sg/cs/people/dyhsu/) and worked on human-robot interaction
 - I did my PhD in robot skill learning at the National University of Singapore from 2010-2014. During my studies I spent 8 month as a PhD sabbatical at TU Darmstadt, with [Jan Peters' lab](https://www.ias.informatik.tu-darmstadt.de/Team/JanPeters)
 
+Feel free to reach out on [Linkedin](https://www.linkedin.com/in/andras-kupcsik-b69a6843/)!
+
