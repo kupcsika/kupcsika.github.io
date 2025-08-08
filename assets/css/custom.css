@@ -69,7 +69,7 @@ body {
   box-shadow: var(--shadow);
   overflow: hidden;
   display: grid;
-  grid-template-columns: 380px 1fr; /* Increased sidebar from 350px to 380px */
+  grid-template-columns: 320px 1fr; /* Reduced from 380px to better fit content */
   min-height: calc(100vh - 40px);
 }
 
@@ -333,7 +333,7 @@ footer {
 @media (min-width: 1600px) {
   .wrapper {
     max-width: 1600px; /* Even wider on very large screens */
-    grid-template-columns: 420px 1fr; /* Larger sidebar for better proportion */
+    grid-template-columns: 340px 1fr; /* Slightly larger but proportional sidebar */
   }
 
   section {
@@ -352,13 +352,11 @@ footer {
     font-size: 1.15rem; /* Slightly larger text for better readability */
     /* Removed max-width to allow full use of available space */
   }
-}
-
-/* Responsive Design */
+}/* Responsive Design */
 @media (max-width: 1024px) {
   .wrapper {
     max-width: 1000px;
-    grid-template-columns: 320px 1fr; /* Smaller sidebar on medium screens */
+    grid-template-columns: 300px 1fr; /* Reduced from 320px for better proportion */
   }
 
   section {
