@@ -48,24 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add typing effect to the main title (optional)
-    const title = document.querySelector('header h1');
-    if (title) {
-        const text = title.textContent;
-        title.textContent = '';
-        let i = 0;
-
-        function typeWriter() {
-            if (i < text.length) {
-                title.textContent += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, 100);
-            }
-        }
-
-        // Start typing effect after a short delay
-        setTimeout(typeWriter, 500);
-    }
+    // Removed typewriter effect for the main title
 });
 
 // Add a fun easter egg for astronomy enthusiasts
