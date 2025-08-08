@@ -1,6 +1,8 @@
 // Modern interactive enhancements for the website
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Hidden visitor counter using countapi.xyz
+    fetch('https://api.countapi.xyz/hit/kupcsika.github.io/visits');
     // Add smooth reveal animations on scroll
     const observerOptions = {
         threshold: 0.1,
