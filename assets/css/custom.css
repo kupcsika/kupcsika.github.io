@@ -64,8 +64,7 @@ body {
 
 /* Main content container */
 .main-content {
-  display: grid;
-  grid-template-rows: 1fr auto;
+  display: block; /* Change from grid since we don't need footer space */
 }
 
 /* Header/Sidebar Styles */
@@ -178,6 +177,8 @@ section {
   background: var(--background);
   overflow-y: auto;
   border-top-right-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  min-height: 100%;
 }
 
 section h2 {
@@ -295,14 +296,7 @@ section li:hover {
 
 /* Footer */
 footer {
-  background: var(--background-alt);
-  padding: 20px 40px;
-  text-align: center;
-  color: var(--text-light);
-  border-top: 1px solid var(--border-color);
-  border-bottom-right-radius: var(--border-radius);
-  box-shadow: none !important;
-  position: relative !important;
+  display: none !important; /* Completely hide the footer */
 }
 
 /* Responsive Design */
@@ -331,10 +325,6 @@ footer {
 
   section {
     padding: 30px 20px;
-    border-radius: 0;
-  }
-
-  footer {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
   }
 
