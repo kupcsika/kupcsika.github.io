@@ -2,6 +2,20 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Andras Kupcsik
-description: Research scientist in robotics and machine learning
+description: Lead Research Scientist in Robotics & Machine Learning | Robot Learning Expert | PhD
 logo: assets/img/headshot.png.jpeg
 show_downloads: false
+
+# SEO and social media
+author: Andras Kupcsik
+twitter:
+  username: kupcsika
+social:
+  name: Andras Kupcsik
+  links:
+    - https://www.linkedin.com/in/andras-kupcsik-b69a6843/
+    - https://scholar.google.com/citations?user=G0EQYYIAAAAJ&hl=en
+    - https://www.astrobin.com/users/kupcsika/
+
+# Analytics (you can add Google Analytics ID here if you have one)
+# google_analytics: UA-XXXXXXXXX-X

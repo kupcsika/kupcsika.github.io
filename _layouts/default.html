@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -27,8 +33,9 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        <p class="view"><a href="https://www.linkedin.com/in/andras-kupcsik-b69a6843/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
-        <p class="view"><a href="https://scholar.google.com/citations?user=G0EQYYIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a></p>
+        <p class="view"><a href="https://www.linkedin.com/in/andras-kupcsik-b69a6843/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        <p class="view"><a href="https://scholar.google.com/citations?user=G0EQYYIAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>
+        <p class="view"><a href="https://www.astrobin.com/users/kupcsika/" target="_blank" rel="noopener noreferrer">AstroBin</a></p>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -50,5 +57,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/modern.js" | relative_url }}"></script>
   </body>
 </html>
