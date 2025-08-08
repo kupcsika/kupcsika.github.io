@@ -1,5 +1,19 @@
 /* Modern, stylish design for Andras Kupcsik's website */
 
+/* Reset and override any default theme styles */
+.wrapper,
+.wrapper *,
+.wrapper *:before,
+.wrapper *:after {
+  position: static !important;
+}
+
+.wrapper .wrapper,
+.wrapper .container,
+.wrapper .inner {
+  display: none !important;
+}
+
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #3498db;
@@ -249,6 +263,7 @@ section li:hover {
   position: relative;
   padding-left: 30px;
   margin: 25px 0;
+  background: transparent !important; /* Ensure no background */
 }
 
 .timeline-item::before {
@@ -260,8 +275,8 @@ section li:hover {
   height: 12px;
   background: var(--secondary-color);
   border-radius: 50%;
-  border: 3px solid var(--background);
-  box-shadow: 0 0 0 3px var(--secondary-color);
+  border: 2px solid var(--secondary-color); /* Changed to same color to avoid white border */
+  box-shadow: none; /* Remove the white box shadow */
 }
 
 .timeline-item::after {
@@ -286,6 +301,8 @@ footer {
   color: var(--text-light);
   border-top: 1px solid var(--border-color);
   border-bottom-right-radius: var(--border-radius);
+  box-shadow: none !important;
+  position: relative !important;
 }
 
 /* Responsive Design */
@@ -382,4 +399,29 @@ a:focus,
 button:focus {
   outline: 2px solid var(--secondary-color);
   outline-offset: 2px;
+}
+
+/* Override any default theme styles that might create white boxes */
+.wrapper .sidebar,
+.wrapper .main-content,
+.wrapper section,
+.wrapper header {
+  box-shadow: none !important;
+}
+
+/* Ensure no unwanted positioned elements */
+.wrapper * {
+  box-sizing: border-box;
+}
+
+/* Make sure there are no floating or positioned white elements */
+div:not(.wrapper):not(.sidebar):not(.main-content) {
+  background: transparent !important;
+}
+
+/* Additional override for any theme-specific elements */
+.view,
+.downloads,
+small {
+  background: transparent !important;
 }
