@@ -44,14 +44,14 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px; /* Increased from 1200px for wider desktop layout */
   margin: 0 auto;
   background: var(--background);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   overflow: hidden;
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 380px 1fr; /* Increased sidebar from 350px to 380px */
   min-height: calc(100vh - 40px);
 }
 
@@ -173,7 +173,7 @@ header .view a[href*="astrobin"]::before {
 
 /* Main Content Styles */
 section {
-  padding: 50px 40px;
+  padding: 60px 50px; /* Increased padding from 50px 40px for more spacious feel */
   background: var(--background);
   overflow-y: auto;
   border-top-right-radius: var(--border-radius);
@@ -299,7 +299,43 @@ footer {
   display: none !important; /* Completely hide the footer */
 }
 
+/* Large screen optimizations */
+@media (min-width: 1600px) {
+  .wrapper {
+    max-width: 1600px; /* Even wider on very large screens */
+    grid-template-columns: 420px 1fr; /* Larger sidebar for better proportion */
+  }
+
+  section {
+    padding: 70px 60px; /* More generous padding on large screens */
+  }
+
+  header {
+    padding: 50px 40px; /* More padding in header too */
+  }
+
+  section h2 {
+    font-size: 2.2rem; /* Slightly larger headings */
+  }
+
+  section p {
+    font-size: 1.15rem; /* Slightly larger text for better readability */
+    max-width: 900px; /* Limit line length for better readability */
+  }
+}
+
 /* Responsive Design */
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 1000px;
+    grid-template-columns: 320px 1fr; /* Smaller sidebar on medium screens */
+  }
+
+  section {
+    padding: 50px 40px; /* Reduce padding on medium screens */
+  }
+}
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
