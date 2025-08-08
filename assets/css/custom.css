@@ -75,9 +75,11 @@ body {
 
 /* Sidebar container for the left column */
 .sidebar {
-  background: var(--background);
+  background: linear-gradient(135deg, var(--primary-color) 0%, #34495e 100%); /* Match header background */
   border-top-left-radius: var(--border-radius);
   border-bottom-left-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
 }
 
 /* Main content container */
@@ -87,7 +89,7 @@ body {
 
 /* Header/Sidebar Styles */
 header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #34495e 100%);
+  background: transparent; /* Remove background since sidebar now has it */
   color: white;
   padding: 40px 30px;
   position: relative;
@@ -517,4 +519,57 @@ section div,
   margin-right: 0 !important;
   width: 100% !important;
   box-sizing: border-box !important;
+}
+
+/* NUCLEAR OPTION: Override Jekyll minimal theme's fixed width completely */
+html body .wrapper section,
+html body .wrapper .main-content section,
+html body section,
+body section {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 60px 50px !important;
+  box-sizing: border-box !important;
+}
+
+/* Override any .container or .inner elements that Jekyll might inject */
+html body section .container,
+html body section .inner,
+html body .wrapper section .container,
+html body .wrapper section .inner {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Force content to start at the left edge */
+html body section > h2,
+html body section > p,
+html body section > ul,
+html body section > div {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Specific overrides for timeline and publication elements */
+html body .timeline-item,
+html body section .timeline-item,
+html body section ul,
+html body section li {
+  margin-left: 0 !important;
+  padding-left: 30px !important; /* Only for timeline items */
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Reset timeline padding specifically */
+html body section ul {
+  padding-left: 0 !important;
+}
+
+html body section .timeline-item {
+  padding-left: 30px !important; /* Restore timeline indentation */
 }
