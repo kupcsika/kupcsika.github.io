@@ -14,6 +14,24 @@
   display: none !important;
 }
 
+/* Override common Jekyll theme layout patterns */
+body .wrapper section,
+.wrapper .main-content section,
+.main-content section {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Force remove any fixed width constraints from the minimal theme */
+@media screen {
+  section {
+    max-width: none !important;
+    width: 100% !important;
+  }
+}
+
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #3498db;
@@ -173,12 +191,15 @@ header .view a[href*="astrobin"]::before {
 
 /* Main Content Styles */
 section {
-  padding: 60px 50px; /* Increased padding from 50px 40px for more spacious feel */
+  padding: 60px 50px !important; /* Force override of any theme padding */
   background: var(--background);
   overflow-y: auto;
   border-top-right-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
   min-height: 100%;
+  margin: 0 !important; /* Remove any inherited margins */
+  width: 100% !important; /* Force full width */
+  box-sizing: border-box !important;
 }
 
 section h2 {
@@ -339,11 +360,11 @@ footer {
   }
 
   section {
-    padding: 50px 40px; /* Reduce padding on medium screens */
+    padding: 50px 40px !important; /* Force override on medium screens */
+    margin: 0 !important;
+    width: 100% !important;
   }
-}
-
-@media (max-width: 768px) {
+}@media (max-width: 768px) {
   body {
     padding: 10px;
   }
@@ -457,4 +478,43 @@ div:not(.wrapper):not(.sidebar):not(.main-content) {
 .downloads,
 small {
   background: transparent !important;
+}
+
+/* Force override any Jekyll theme container styles that might cause gaps */
+.wrapper section,
+.main-content section,
+section {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 60px !important;
+  padding-right: 50px !important;
+}
+
+/* Override any default Jekyll theme content containers */
+.wrapper .inner,
+.wrapper .container,
+section .inner,
+section .container {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+/* Force all content elements to use full width */
+section > *,
+section h1,
+section h2,
+section h3,
+section p,
+section ul,
+section ol,
+section div,
+.timeline-item {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
