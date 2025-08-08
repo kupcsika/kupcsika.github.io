@@ -189,6 +189,7 @@ section h2 {
   padding-bottom: 15px;
   border-bottom: 3px solid var(--secondary-color);
   position: relative;
+  width: 100%; /* Ensure headings use full width */
 }
 
 section h2::after {
@@ -207,6 +208,7 @@ section p {
   font-size: 1.1rem;
   line-height: 1.7;
   color: var(--text-color);
+  width: 100%; /* Ensure paragraphs use full width */
 }
 
 section a {
@@ -241,6 +243,7 @@ section ul {
   list-style: none;
   padding: 0;
   margin: 25px 0;
+  width: 100%; /* Ensure lists use full width */
 }
 
 section li {
@@ -251,6 +254,8 @@ section li {
   border-left: 4px solid var(--secondary-color);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: var(--transition);
+  width: 100%; /* Ensure list items use full width */
+  box-sizing: border-box;
 }
 
 section li:hover {
@@ -265,6 +270,8 @@ section li:hover {
   padding-left: 30px;
   margin: 25px 0;
   background: transparent !important; /* Ensure no background */
+  width: 100%; /* Ensure timeline items use full width */
+  box-sizing: border-box;
 }
 
 .timeline-item::before {
@@ -320,7 +327,7 @@ footer {
 
   section p {
     font-size: 1.15rem; /* Slightly larger text for better readability */
-    max-width: 900px; /* Limit line length for better readability */
+    /* Removed max-width to allow full use of available space */
   }
 }
 
