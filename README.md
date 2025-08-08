@@ -19,7 +19,11 @@ For my complete publication list, visit my [Google Scholar](https://scholar.goog
 ## Professional Journey
 
 <div class="timeline-item">
-<strong>2018 - Present:</strong> Lead Research Scientist at Bosch Corporate Research, focusing on advanced robot learning and industrial applications.
+<strong>2022 - Present:</strong> Lead Research Scientist at Bosch Corporate Research, focusing on robot learning and industrial applications.
+</div>
+
+<div class="timeline-item">
+<strong>2018 - Present:</strong> Research Scientist at Bosch Corporate Research, focusing on robot learning and industrial applications.
 </div>
 
 <div class="timeline-item">
