@@ -2,7 +2,7 @@
 
 I am a Lead Research Scientist at Bosch Corporate Research, specializing in robot learning—the intersection of robotics and machine learning. My research focuses on robot skill learning for dexterous manipulation, with broader interests in sequential decision making (reinforcement learning, imitation learning, optimal control), geometric learning and control, and computer vision for object understanding.
 
-When I'm not pushing the boundaries of robotics, I spend my free time with my family and exploring the cosmos through astronomy. Check out my [AstroBin](https://www.astrobin.com/users/kupcsika/) page to see my astrophotography work.
+I spend my free time with my family and astronomy. Check out my [AstroBin](https://www.astrobin.com/users/kupcsika/) page to see my astrophotography work.
 
 ## Publications
 
