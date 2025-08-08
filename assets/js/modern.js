@@ -1,22 +1,6 @@
 // Modern interactive enhancements for the website
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Robust hidden visitor counter using countapi.xyz
-    // First, initialize the counter if it doesn't exist
-    fetch('https://api.countapi.xyz/get/kupcsika.github.io/visits')
-      .then(response => response.json())
-      .then(data => {
-        if (typeof data.value === 'undefined') {
-          // Initialize the counter to 0
-          fetch('https://api.countapi.xyz/create?namespace=kupcsika.github.io&key=visits&value=0');
-        }
-        // Increment the counter
-        fetch('https://api.countapi.xyz/hit/kupcsika.github.io/visits');
-      })
-      .catch(() => {
-        // Fallback: just try to increment
-        fetch('https://api.countapi.xyz/hit/kupcsika.github.io/visits');
-      });
     // Add smooth reveal animations on scroll
     const observerOptions = {
         threshold: 0.1,
