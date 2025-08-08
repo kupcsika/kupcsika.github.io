@@ -10,11 +10,14 @@ For my complete publication list, visit my [Google Scholar](https://scholar.goog
 
 ### Notable Publications
 
-- **Kupcsik A., Deisenroth M., Neumann G., Peters J.** *Data-efficient generalization of robot skills with contextual policy search*, AAAI, 2013
+- **Rozo L., Kupcsik A., et al.** *The e-Bike motor assembly: Towards advanced robotic manipulation for flexible manufacturing*, Robotics and Computer-Integrated Manufacturing, 2024
+
+- **Kupcsik A., et al.** *Supervised training of dense object nets using optimal descriptors for industrial robotic applications*, AAAI, 2021
 
 - **Kupcsik A., Lee W.S., Hsu D.** *Learning dynamic robot-to-human object handover from human feedback*, Robotics Research, 2018
 
-- **Kupcsik A., Spies M., Klein A., Todescato M., Waniek N., Schillinger P., Bürger M.** *Supervised training of dense object nets using optimal descriptors for industrial robotic applications*, AAAI, 2021
+- **Kupcsik A., Deisenroth M., Neumann G., Peters J.** *Data-efficient generalization of robot skills with contextual policy search*, AAAI, 2013
+
 
 ## Professional Journey
 
