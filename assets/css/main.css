@@ -3,7 +3,7 @@
   /* Color Palette - Light Mode */
   --bg-base: #ffffff;      /* White background */
   --bg-surface: #ffffff;   
-  --bg-sidebar: #f1f5f9;   /* Light grey panel */
+  --bg-sidebar: #e2e8f0;   /* Light grey panel */
   --text-main: #334155;
   --text-muted: #64748b;
   --text-sidebar: #334155; /* Dark text on light sidebar */
@@ -11,8 +11,8 @@
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
   
-  --border-color: #e2e8f0;
-  --border-color-subtle: #f1f5f9;
+  --border-color: #cbd5e1;
+  --border-color-subtle: #e2e8f0;
   
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
